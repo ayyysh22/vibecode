@@ -75,7 +75,7 @@ const testimonials = [
   },
   {
     name: "Priya Patel",
-    text: "I shipped a project I’m actually proud of! The method is fun, fast, and super motivating.",
+    text: "I shipped a project I&apos;m actually proud of! The method is fun, fast, and super motivating.",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
@@ -142,7 +142,7 @@ function VibeCodeLanding() {
         </a>
       </section>
 
-      {/* What You'll Build */}
+      {/* What You&apos;ll Build */}
       <section className="w-full max-w-5xl px-4 py-16">
         <h2
           className="text-2xl md:text-3xl font-bold mb-10 text-center"
@@ -151,7 +151,7 @@ function VibeCodeLanding() {
             letterSpacing: "-0.02em",
           }}
         >
-          What You'll Build
+          What You&apos;ll Build
         </h2>
         <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch">
           {aiApps.map((app, i) => (
